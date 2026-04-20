@@ -49,9 +49,6 @@
 You can switch tuning, root note, scale type, and UI language while inspecting the resulting note layout and scale information.
 
 ### Screenshot
-> Place screenshot images in `docs/images/`.  
-> Example: `docs/images/scale-visualizer-overview.png`
-
 ![Scale Visualizer Screenshot](docs/images/scale-visualizer-overview.png)
 
 ### Features
