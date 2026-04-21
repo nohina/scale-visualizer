@@ -216,6 +216,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1406,7 +1407,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 12
+  serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
@@ -1458,7 +1459,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShapeRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -2942,8 +2943,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -280}
-  m_SizeDelta: {x: 1200, y: 200}
+  m_AnchoredPosition: {x: -650, y: -280}
+  m_SizeDelta: {x: 1300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &885966993
 MonoBehaviour:
@@ -3046,7 +3047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Major Scale
+  m_text: "\u30E1\u30B8\u30E3\u30FC\u30FB\u30B9\u30B1\u30FC\u30EB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c4b15ec34eca934285cc612b1f47751, type: 2}
   m_sharedMaterial: {fileID: -6280745390904666054, guid: 5c4b15ec34eca934285cc612b1f47751, type: 2}
@@ -4354,7 +4355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C Major Scale
+  m_text: "C \u30E1\u30B8\u30E3\u30FC\u30FB\u30B9\u30B1\u30FC\u30EB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c4b15ec34eca934285cc612b1f47751, type: 2}
   m_sharedMaterial: {fileID: -6280745390904666054, guid: 5c4b15ec34eca934285cc612b1f47751, type: 2}
@@ -4606,94 +4607,94 @@ MonoBehaviour:
   m_MultiSelect: 0
   m_Options:
     m_Options:
-    - m_Text: EADGBE (Standard Tuning)
+    - m_Text: "EADGBE\uFF08\u30B9\u30BF\u30F3\u30C0\u30FC\u30C9\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: DADGBE (Drop D Tuning)
+    - m_Text: "DADGBE\uFF08\u30C9\u30ED\u30C3\u30D7D\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: C#G#C#F#A#D# (Drop C# Tuning)
+    - m_Text: "C#G#C#F#A#D#\uFF08\u30C9\u30ED\u30C3\u30D7C#\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: CGCFAD (Drop C Tuning)
+    - m_Text: "CGCFAD\uFF08\u30C9\u30ED\u30C3\u30D7C\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: BF#BEG#C# (Drop B Tuning)
+    - m_Text: "BF#BEG#C#\uFF08\u30C9\u30ED\u30C3\u30D7B\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: "B\u266DFB\u266DE\u266DGC (Drop B\u266D Tuning)"
+    - m_Text: "B\u266DFB\u266DE\u266DGC\uFF08\u30C9\u30ED\u30C3\u30D7B\u266D\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: AEADF#B (Drop A Tuning)
+    - m_Text: "AEADF#B\uFF08\u30C9\u30ED\u30C3\u30D7A\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: "A\u266DE\u266DA\u266DD\u266DFB\u266D (Drop A\u266D Tuning)"
+    - m_Text: "A\u266DE\u266DA\u266DD\u266DFB\u266D\uFF08\u30C9\u30ED\u30C3\u30D7A\u266D\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: DGDGBD (Open G Tuning)
+    - m_Text: "DGDGBD\uFF08\u30AA\u30FC\u30D7\u30F3G\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: EAEAC#E (Open A Tuning)
+    - m_Text: "EAEAC#E\uFF08\u30AA\u30FC\u30D7\u30F3A\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: DADF#AD (Open D Tuning)
+    - m_Text: "DADF#AD\uFF08\u30AA\u30FC\u30D7\u30F3D\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: EBEG#BE (Open E Tuning)
+    - m_Text: "EBEG#BE\uFF08\u30AA\u30FC\u30D7\u30F3E\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: "DGDGB\u266DD (Open G Minor Tuning)"
+    - m_Text: "DGDGB\u266DD\uFF08\u30AA\u30FC\u30D7\u30F3Gm\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: EAEACE (Open A Minor Tuning)
+    - m_Text: "EAEACE\uFF08\u30AA\u30FC\u30D7\u30F3Am\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: EBEGBE (Open E Minor Tuning)
+    - m_Text: "EBEGBE\uFF08\u30AA\u30FC\u30D7\u30F3Em\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: DADFAD (Open D Minor Tuning)
+    - m_Text: "DADFAD\uFF08\u30AA\u30FC\u30D7\u30F3Dm\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: DADGAD (DADGAD Tuning)
+    - m_Text: "DADGAD\uFF08\u30C0\u30C9\u30AC\u30C9\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: DADEAD (DADEAD Tuning)
+    - m_Text: "DADEAD\uFF08\u30C0\u30C7\u30C3\u30C9\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: DGDGCD (Open Gsus4 Tuning)
+    - m_Text: "DGDGCD\uFF08\u30AA\u30FC\u30D7\u30F3Gsus4\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: DGDGAD (DGDGAD Tuning)
+    - m_Text: "DGDGAD\uFF08DGDGAD\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: GBDGBD (G Tuning)
+    - m_Text: "GBDGBD\uFF08G\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: "E\u266DGB\u266DCE\u266DG (Koto Hirajoshi Style)"
+    - m_Text: "E\u266DGB\u266DCE\u266DG\uFF08\u7B8F\u30FB\u5E73\u8ABF\u5B50\u98A8\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: "E\u266DGB\u266DCFA (Koto Nogijoshi Style)"
+    - m_Text: "E\u266DGB\u266DCFA\uFF08\u7B8F\u30FB\u4E43\u6728\u8ABF\u5B50\u98A8\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: "E\u266DFGB\u266DCD (Koto Kumoi Style)"
+    - m_Text: "E\u266DFGB\u266DCD\uFF08\u7B8F\u30FB\u96F2\u4E95\u8ABF\u5B50\u98A8\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: CFCFCF (Shamisen Honchoshi Style)
+    - m_Text: "CFCFCF\uFF08\u4E09\u5473\u7DDA\u30FB\u672C\u8ABF\u5B50\u98A8\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: CGCGCG (Shamisen Niagari Style)
+    - m_Text: "CGCGCG\uFF08\u4E09\u5473\u7DDA\u30FB\u4E8C\u4E0A\u308A\u98A8\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: CFCGCF (Shamisen Sansagari Style)
+    - m_Text: "CFCGCF\uFF08\u4E09\u5473\u7DDA\u30FB\u4E09\u4E0B\u308A\u98A8\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: CFCGCC (Sanshin Honchoshi Style)
+    - m_Text: "CFCGCC\uFF08\u6C96\u7E04\u4E09\u7DDA\u30FB\u672C\u8ABF\u5B50\u98A8\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: CFCFC#F (Sanshin Niage Style)
+    - m_Text: "CFCFC#F\uFF08\u6C96\u7E04\u4E09\u7DDA\u30FB\u4E8C\u63DA\u3052\u98A8\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: CFCGCD (Sanshin Sansage Style)
+    - m_Text: "CFCGCD\uFF08\u6C96\u7E04\u4E09\u7DDA\u30FB\u4E09\u4E0B\u3052\u98A8\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -5640,7 +5641,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 60}
+  m_SizeDelta: {x: 500, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1502749158
 MonoBehaviour:
@@ -5693,94 +5694,118 @@ MonoBehaviour:
   m_MultiSelect: 0
   m_Options:
     m_Options:
-    - m_Text: Major Scale
+    - m_Text: "\u30E1\u30B8\u30E3\u30FC\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Natural Minor Scale
+    - m_Text: "\u30CA\u30C1\u30E5\u30E9\u30EB\u30DE\u30A4\u30CA\u30FC\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Harmonic Minor Scale
+    - m_Text: "\u30CF\u30FC\u30E2\u30CB\u30C3\u30AF\u30DE\u30A4\u30CA\u30FC\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Melodic Minor Scale
+    - m_Text: "\u30E1\u30ED\u30C7\u30A3\u30C3\u30AF\u30DE\u30A4\u30CA\u30FC\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Major Pentatonic Scale
+    - m_Text: "\u30E1\u30B8\u30E3\u30FC\u30DA\u30F3\u30BF\u30C8\u30CB\u30C3\u30AF\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Minor Pentatonic Scale
+    - m_Text: "\u30DE\u30A4\u30CA\u30FC\u30DA\u30F3\u30BF\u30C8\u30CB\u30C3\u30AF\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Blues Scale
+    - m_Text: "\u30D6\u30EB\u30FC\u30B9\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Minor Blues Scale
+    - m_Text: "\u30DE\u30A4\u30CA\u30FC\u30D6\u30EB\u30FC\u30B9\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Ionian Scale
+    - m_Text: "\u30A4\u30AA\u30CB\u30A2\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Dorian Scale
+    - m_Text: "\u30C9\u30EA\u30A2\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Phrygian Scale
+    - m_Text: "\u30D5\u30EA\u30B8\u30A2\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Lydian Scale
+    - m_Text: "\u30EA\u30C7\u30A3\u30A2\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Mixolydian Scale
+    - m_Text: "\u30DF\u30AF\u30BD\u30EA\u30C7\u30A3\u30A2\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Aeolian Scale
+    - m_Text: "\u30A8\u30AA\u30EA\u30A2\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Locrian Scale
+    - m_Text: "\u30ED\u30AF\u30EA\u30A2\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Altered Scale
+    - m_Text: "\u30AA\u30EB\u30BF\u30FC\u30C9\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Whole Tone Scale
+    - m_Text: "\u30DB\u30FC\u30EB\u30C8\u30FC\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Half Whole Tone Scale
+    - m_Text: "\u30CF\u30FC\u30D5\u30DB\u30FC\u30EB\u30C8\u30FC\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Diminished Scale
+    - m_Text: "\u30C7\u30A3\u30DF\u30CB\u30C3\u30B7\u30E5\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Lydian Dominant Scale
+    - m_Text: "\u30EA\u30C7\u30A3\u30A2\u30F3\u30C9\u30DF\u30CA\u30F3\u30C8\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Spanish 8 Note Scale
+    - m_Text: "\u30B9\u30D1\u30CB\u30C3\u30B7\u30E5\u30FB8\u30CE\u30FC\u30C8\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Arabic Scale
+    - m_Text: "\u30A2\u30E9\u30D3\u30C3\u30AF\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Hungarian Scale
+    - m_Text: "\u30CF\u30F3\u30AC\u30EA\u30A2\u30F3\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Gypsy Scale
+    - m_Text: "\u30B8\u30D7\u30B7\u30FC\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Hindu Scale
+    - m_Text: "\u30D2\u30F3\u30BA\u30FC\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Scottish Scale
+    - m_Text: "\u30B9\u30B3\u30C6\u30A3\u30C3\u30B7\u30E5\u30FB\u30B9\u30B1\u30FC\u30EB"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Yonanuki Major Scale
+    - m_Text: "\u30E8\u30CA\u629C\u304D\u9577\u97F3\u968E"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Yonanuki Minor Scale
+    - m_Text: "\u30E8\u30CA\u629C\u304D\u77ED\u97F3\u968E"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Ryukyu Scale
+    - m_Text: "\u7409\u7403\u97F3\u968E"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Raga Bhairav Scale
+    - m_Text: "\u30E9\u30FC\u30AC\u30FB\u30D0\u30A4\u30E9\u30D6\uFF086:00\u301C8:00\uFF09"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\u30E9\u30FC\u30AC\u30FB\u30A2\u30B5\u30F4\u30A1\u30EA\uFF0816:30\u301C18:30\uFF09"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\u30E9\u30FC\u30AC\u30FB\u30D3\u30E9\u30FC\u30EF\u30EB\uFF0811:00\u301C14:00\uFF09"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\u30E9\u30FC\u30AC\u30FB\u30D0\u30A4\u30E9\u30F4\u30A3\uFF0814:00\u301C16:30\uFF09"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\u30E9\u30FC\u30AC\u30FB\u30AB\u30D5\u30A3\uFF083:00\u301C6:00\uFF09"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\u30E9\u30FC\u30AC\u30FB\u30AB\u30EA\u30E4\u30F3\uFF0820:30\u301C24:00\uFF09"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\u30E9\u30FC\u30AC\u30FB\u30AB\u30DE\u30FC\u30B8\uFF080:00\u301C3:00\uFF09"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\u30E9\u30FC\u30AC\u30FB\u30D7\u30EB\u30F4\u30A3\uFF0818:30\u301C20:30\uFF09"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\u30E9\u30FC\u30AC\u30FB\u30C8\u30C7\u30A3\uFF088:00\u301C11:00\uFF09"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -6564,7 +6589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EADGBE (Standard Tuning)
+  m_text: "EADGBE\uFF08\u30B9\u30BF\u30F3\u30C0\u30FC\u30C9\u30C1\u30E5\u30FC\u30CB\u30F3\u30B0\uFF09"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c4b15ec34eca934285cc612b1f47751, type: 2}
   m_sharedMaterial: {fileID: -6280745390904666054, guid: 5c4b15ec34eca934285cc612b1f47751, type: 2}
